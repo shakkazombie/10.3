@@ -1,0 +1,45 @@
+#carousel {
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 600px;
+    border: solid 2px blue;
+    overflow: hidden;
+    position: relative;
+}
+
+#carousel ul {
+    padding: 0;
+    width: 2000px;
+}
+
+#carousel li {
+    list-style: none;
+    float: left;
+}
+
+#carousel img {
+    width: 400px;
+    margin-top: 15px;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-20%);
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translate(-20%);
+}
+
+.btn-primary-outline {
+    background-color: transparent;
+    border-color: #ccc;
+    font-weight: bold;
+    color: white;
+}
